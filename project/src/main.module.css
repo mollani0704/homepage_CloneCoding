@@ -1,0 +1,19 @@
+.main_container {
+    width: 1500px;
+    height: 550px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.main_Img {
+    width: 1500px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.contents {
+    margin: 0 auto;
+    width: 1500px;
+    height: 3600px;
+    background-color: burlywood;
+}

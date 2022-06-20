@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+:root {
+    --header-height: 180px;
+    --header-background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_in {
+    width: 1500px;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
+    display: flex;
+    justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header_in .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
 }
 
-.App-link {
-  color: #61dafb;
+.header_in .logo .logoImg {
+    width: 250px;
+    height: var(--header-height);
+    background-image: url('./logo.png');
+    background-size: 100% 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_in .nav {
+    width: 1000px;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.header_in .nav .login_menu {
+    position: relative;
+    right: 100px;
+    width: 500px;
+    padding-top: 30px;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header_in .nav .login_menu ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header_in .nav .login_menu ul li {
+    text-decoration: none;
+}
+
+.header_in .nav .menu {
+    width: 800px;
+    height: var(--header-height);
+    background-color: var(--header-background-color);
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+}
+
+.header_in .nav .menu ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header_in .nav .menu ul li {
+    text-decoration: none;
+}
+
+.link--loginMenu {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.link--menu {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

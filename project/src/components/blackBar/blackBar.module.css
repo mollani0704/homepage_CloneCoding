@@ -1,0 +1,11 @@
+.black_bar {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.black_bar div {
+    color: white;
+    line-height: 30px;
+}
