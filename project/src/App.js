@@ -14,12 +14,6 @@ import Women from './components/women/women';
 import Kids from './components/kids/kids';
 import Customs from './components/customs/customs';
 
-import {MdKeyboardArrowDown} from 'react-icons/md';
-import {FiShoppingCart} from 'react-icons/fi';
-import {AiOutlineHeart} from 'react-icons/ai';
-import {IoMdPerson} from 'react-icons/io';
-import {GiPositionMarker} from 'react-icons/gi';
-
 import './App.css';
 
 function App() {
@@ -44,25 +38,21 @@ function App() {
                                 </li>
                                 <li>
                                     <Link to="/shoppingList" className="link--loginMenu">
-                                        <FiShoppingCart />
                                         장바구니
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/wishList" className="link--loginMenu">
-                                        <AiOutlineHeart />
                                         위시리스트
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/login" className="link--loginMenu">
-                                        <IoMdPerson />
                                         로그인
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/store" className="link--loginMenu">
-                                        <GiPositionMarker />
                                         매장찾기
                                     </Link>
                                 </li>
@@ -73,31 +63,31 @@ function App() {
                                 <li>
                                     <Link to="/new" className="link--menu">
                                         NEW
-                                        <MdKeyboardArrowDown />
+                                        <i className="fa-solid fa-angle-down"></i>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/men" className="link--menu">
                                         MEN
-                                        <MdKeyboardArrowDown />
+                                        <i className="fa-solid fa-angle-down"></i>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/women" className="link--menu">
                                         WOMEN
-                                        <MdKeyboardArrowDown />
+                                        <i className="fa-solid fa-angle-down"></i>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/kids" className="link--menu">
                                         KIDS
-                                        <MdKeyboardArrowDown />
+                                        <i className="fa-solid fa-angle-down"></i>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/customs" className="link--menu">
                                         CUSTOMS
-                                        <MdKeyboardArrowDown />
+                                        <i className="fa-solid fa-angle-down"></i>
                                     </Link>
                                 </li>
                             </ul>

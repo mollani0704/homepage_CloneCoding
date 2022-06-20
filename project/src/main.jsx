@@ -15,11 +15,7 @@ const Main = () => {
         <>
             <BlackBar />
             <div className={styles.main_container}>
-                {/* <img
-                    className={styles.main_Img}
-                    src={require('./Img/mainImg.jpg')}
-                    alt=""
-                /> */}
+                {/* <img className={styles.main_Img} src={require('./Img/mainImg.jpg')} alt="" /> */}
                 <MainImg />
             </div>
             <div className={styles.contents}>
